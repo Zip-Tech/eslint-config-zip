@@ -1,0 +1,25 @@
+{
+  "name": "zip-eslint-config",
+  "version": "1.0.1",
+  "description": "Sharable ESLint configuration for zip projects",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint \"lib/**/**.js\"",
+    "build": "echo \"No build.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Zip-Tech/zip-eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "johnreemar.delarosa@zipeli.com",
+  "devDependencies": {
+    "eslint": "~6.5.1"
+  },
+  "peerDependencies": {
+    "eslint": "~6.5.1"
+  }
+}
