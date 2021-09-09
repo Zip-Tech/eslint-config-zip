@@ -1,6 +1,4 @@
 # zip-eslint-config
-[![NPM version][npm-version-image]][npm-url]
-
 Sharable ESLint configuration for zip projects.
 
 ## Installation:
