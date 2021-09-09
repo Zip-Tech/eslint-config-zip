@@ -21,6 +21,21 @@ Instead of using a file path for the value of extends, use your module name. For
     "extends": "zip-eslint-config/base"
 }
 ```
+```js
+{
+    "extends": "zip-eslint-config/angular"
+}
+```
+```js
+{
+    "extends": "zip-eslint-config/node"
+}
+```
+```js
+{
+    "extends": "zip-eslint-config/typescript"
+}
+```
 
 ## Rules configurations:
 
