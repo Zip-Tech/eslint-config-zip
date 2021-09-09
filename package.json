@@ -1,5 +1,5 @@
 {
-  "name": "zip-eslint-config",
+  "name": "eslint-config",
   "version": "1.0.1",
   "description": "Sharable ESLint configuration for zip projects",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Zip-Tech/zip-eslint-config.git"
+    "url": "git@github.com:Zip-Tech/eslint-config.git"
   },
   "keywords": [
     "eslint",

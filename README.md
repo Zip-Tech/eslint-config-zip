@@ -1,10 +1,10 @@
-# zip-eslint-config
+# eslint-config
 Sharable ESLint configuration for zip projects.
 
 ## Installation:
 To install this library, run:
 ```bash
-$ npm install zip-eslint-config --save-dev
+$ npm install eslint-config --save-dev
 ```
 
 ## Usage:
@@ -12,28 +12,28 @@ Shareable configs are designed to work with the extends feature of .eslintrc fil
 Instead of using a file path for the value of extends, use your module name. For example:
 ```js
 {
-    "extends": "zip-eslint-config"
+    "extends": "eslint-config"
 }
 ```
 
 ```js
 {
-    "extends": "zip-eslint-config/base"
+    "extends": "eslint-config/base"
 }
 ```
 ```js
 {
-    "extends": "zip-eslint-config/angular"
+    "extends": "eslint-config/angular"
 }
 ```
 ```js
 {
-    "extends": "zip-eslint-config/node"
+    "extends": "eslint-config/node"
 }
 ```
 ```js
 {
-    "extends": "zip-eslint-config/typescript"
+    "extends": "eslint-config/typescript"
 }
 ```
 
@@ -319,7 +319,7 @@ Instead of using a file path for the value of extends, use your module name. For
 | [template-curly-spacing](https://eslint.org/docs/rules/template-curly-spacing) | Disallow spacing around embedded expressions of template strings. | error |
 | [yield-star-spacing](https://eslint.org/docs/rules/yield-star-spacing) | Require or disallow spacing around the `*` in `yield*` expressions. | error |
 
-#### zip-eslint-config/angular
+#### eslint-config/angular
 
 | Rules | Description | Value                     |
 | :--- | :---| :--- |
@@ -327,7 +327,7 @@ Instead of using a file path for the value of extends, use your module name. For
 | [no-useless-constructor](https://eslint.org/docs/rules/no-useless-constructor) | Disallow unnecessary constructors. Disabled to allow constructor injection. | off |
 | [no-empty-function](https://eslint.org/docs/rules/no-empty-function) | Disallow empty functions. Exceptions: arrow functions, constructors, functions and methods | error |
 
-#### zip-eslint-config/node
+#### eslint-config/node
 
 | Rules | Description | Value                     |
 | :--- | :---| :--- |
@@ -343,51 +343,51 @@ Instead of using a file path for the value of extends, use your module name. For
 | [no-restricted-modules](https://eslint.org/docs/rules/no-restricted-modules) | Disallow specified modules when loaded by `require`. | off |
 | [no-sync](https://eslint.org/docs/rules/no-sync) | Disallow synchronous methods. | off |
 
-#### zip-eslint-config/typescript
+#### eslint-config/typescript
 
 | Rules | Description | Value                     |
 | :--- | :---| :--- |
 
 ## Available configurations:
 
-#### zip-eslint-config/base
+#### eslint-config/base
 
 ```js
 {
-    "extends": "zip-eslint-config/base"
+    "extends": "eslint-config/base"
 }
 ```
 
 extends: ['possible-errors', 'best-practices', 'strict-mode', 'variables',
   'es6', 'styles' ]
 
-#### zip-eslint-config/node
+#### eslint-config/node
 
 ```js
 {
-    "extends": "zip-eslint-config/node"
+    "extends": "eslint-config/node"
 }
 ```
 
 extends: ['possible-errors', 'best-practices', 'variables',
   'es6', 'styles', 'node' ]
 
-#### zip-eslint-config/angular
+#### eslint-config/angular
 
 ```js
 {
-    "extends": "zip-eslint-config/angular"
+    "extends": "eslint-config/angular"
 }
 ```
 
 extends: ['possible-errors', 'best-practices', 'strict-mode', 'variables',
   'es6', 'styles', 'typescript', 'angular' ]
 
-#### zip-eslint-config/typescript
+#### eslint-config/typescript
 
 ```js
 {
-    "extends": "zip-eslint-config/typescript"
+    "extends": "eslint-config/typescript"
 }
 ```
 
